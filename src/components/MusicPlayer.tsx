@@ -35,7 +35,7 @@ const MusicPlayer: React.FC = () => {
       <audio 
         ref={audioRef}
         loop
-        src="/balinese_music.mp3" 
+        src="/balinese-music.mp3" 
       />
       <style>{`
         @keyframes spin { 100% { transform: rotate(360deg); } }
